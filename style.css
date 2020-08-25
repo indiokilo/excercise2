@@ -1,0 +1,113 @@
+body {
+    background-color: cornflowerblue;
+}
+
+header {
+    height: 80px;
+    background: goldenrod;
+    margin: 0;
+}
+
+#header #nav-bar {
+    padding: 0 auto;
+    display: inline;
+    height: 60px;
+}
+
+header ul {
+    list-style: none;
+    display: inline-block;
+    float: right;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+header li {
+    display: inline-block;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin: 4px 10px;
+    display: inline-block;
+}
+
+#welcome {
+    text-align: center;
+    height: 200px;
+    padding: 50px 30px;
+}
+
+#welcome h1 {
+    font-size: 48px;
+}
+
+#welcome p {
+    font-size: 21px;
+}
+
+#portfolio {
+    background-color: darkgray;
+    padding: 40px 40px;
+    text-align: center;
+    
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.portfolio-grid .portfolio-image {
+    padding: 25px 0;
+}
+
+.portfolio-image a {
+    text-decoration: none;
+    padding: 20px 0px;
+    color: yellow;
+    font-size: 21px;
+}
+
+.portfolio-image img {
+    margin-bottom: 10px;
+}
+
+.sm-link {
+    text-align: center;
+    height: 200px;
+    background-color: goldenrod;
+    padding-top: 40px;
+}
+
+.sm-link ul {
+    list-style: none;
+
+}
+
+.sm-link li {
+    display: inline-block;
+    margin: -3px 15px;
+}
+
+.sm-link h3 {
+    font-size: 36px;
+}
+
+.sm-link a {
+    text-decoration: none;
+    color: midnightblue;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
